@@ -1,7 +1,7 @@
 # Monero-TipBot
-Discord Tipbot built in C++ for Monero/IntenseCoin
+Discord Tipbot built in C++ for uPlexa
 
-Discord: https://discord.gg/TyD4jfU
+Discord: https://discord.gg/a7mAQwJ
 
 ## Compile
 
@@ -47,8 +47,8 @@ Discord: https://discord.gg/TyD4jfU
 * !buytickets [amount]
 
 ## Requirements
-* IntenseCon/Monero Daemon
-* IntenseCoin/Monero RPC
+* uPlexa Daemon
+* uPlexa RPC
 * Discord Token 
 * TCP Port 11000 to 11100 free to bind (can be redefined in config)
 
@@ -56,21 +56,20 @@ Discord: https://discord.gg/TyD4jfU
 
 ### Windows/Linux
 * Poco C++ - https://github.com/pocoproject
-* Sleepy Discord - https://github.com/yourWaifu/sleepy-discord
 
 ### Linux Packages
 * libcurl4-openssl-dev
 * libssl-dev
 
 ## RPC Setup
-You need to download the RPC for the coin you want to setup the bot with, for example, IntenseCoin (https://github.com/valiant1x/intensecoin/releases). Unzip it to whereever you built the TIPBOT.
+You need to download the RPC for the coin you want to setup the bot with, for example, uPlexa (https://github.com/uPlexa/uplexa/releases). Unzip it to whereever you built the TIPBOT.
 
 ## Deamon setup
-Next you'll need to open the daemon for the coin, for example, `intensecoind` for IntenseCoin.
+Next you'll need to open the daemon for the coin, for example, `uplexad` for uPlexa.
 
 The file structure should look like this:
-* intensecoind/monerocoind
-* intense-wallet-rpc/monero-wallet-rpc
+* uplexad
+* uplexa-wallet-rpc
 * TIPBOT <- This programs executable. 
 * Wallets/ <-- this is a directory. This will be created after running TIPBOT.
 
