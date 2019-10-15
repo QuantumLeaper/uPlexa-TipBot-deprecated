@@ -1,4 +1,4 @@
-# Monero-TipBot
+# uPlexa-TipBot
 Discord Tipbot built in C++ for uPlexa
 
 Discord: https://discord.gg/a7mAQwJ
